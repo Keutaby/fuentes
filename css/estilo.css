@@ -1,0 +1,150 @@
+/*Dando de alta los recursos*/
+@font-face{/*1*/
+    font-family: LearningCurve;
+    src: url(../fonts/LearningCurve.ttf);
+}
+@font-face{/*2*/
+    font-family: dDelapan;
+    src: url(../fonts/dDelapan.ttf);
+}
+@font-face{/*3*/
+    font-family: Awesome Outline;
+    src: url(../fonts/Awesome\ Outline.ttf);
+}
+/*-------------------------UNO-------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background: #000;
+}
+body{
+    width: 750px;
+    height: 1000px;
+    margin: auto;
+    background: #ffc0cb;
+}
+
+section#banner{
+    width: 250px;
+    height: 250px;
+    background: #d4f699;
+    font-family: Awesome Outline;
+    float: left;
+}
+section#logo{
+    width: 250px;
+    height: 250px;
+    background: #f6e599;
+    float: right;
+}
+section#login{
+    width: 250px;
+    height: 250px;
+    background: #aefaf4;
+    float: right;
+}
+
+.caja{
+    position: relative;
+    display: inline-block;
+}
+#uno{
+    position: absolute;
+    top: 20px;
+    left: 5%;
+}
+#dos{
+    position: absolute;
+    top: 20px;
+    left: 5%;
+}
+#tres{
+    position: absolute;
+    top: 20px;
+    left: 5%;
+}
+
+/*-------------------------DOS-------------------------*/
+nav{
+    width: 750px;
+    height: 250px;
+    background: #3b6df9;
+    color: #fde04e;
+    font-family: dDelapan;
+    font-size: 20px;
+}
+section#inicio{
+    width: 250px;
+    height: 250px;
+    background: #f76a12;
+    float: left;
+}
+section#producto{
+    width: 250px;
+    height: 250px;
+    background: #cb4776;
+    float: left;
+}
+section#contacto{
+    width: 250px;
+    height: 250px;
+    background: #8a3602;
+    float: right;
+}
+
+/*-------------------------TRES-------------------------*/
+main{
+    width: 750px;
+    height: 250px;
+    font-size: 20px;
+    color: #cdfc0a;
+    font-family: LearningCurve;
+}
+aside#hoy{
+    width: 250px;
+    height: 250px;
+    background: #8132ff;
+    float: left;
+}
+article#novedades{
+    width: 250px;
+    height: 250px;
+    background: #02ae44;
+    float: left;
+}
+aside#internacional{
+    width: 250px;
+    height: 250px;
+    background: #3b6df9;
+    float: right;
+}
+
+/*-------------------------CUATRO-------------------------*/
+footer{
+    width: 750px;
+    height: 250px;
+    background: #023fe7;
+    font-size: 30px;
+    color: #ffd800;
+    font-family: Awesome Outline;
+}
+aside#creditos{
+    width: 250px;
+    height: 250px;
+    background: #be669f;
+    float: left;
+}
+article#lugar{
+    width: 250px;
+    height: 250px;
+    background: #018287;
+    float: left;
+}
+aside#correo{
+    width: 250px;
+    height: 250px;
+    background: #ba7d55;
+    float: right;
+}
